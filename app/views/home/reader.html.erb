@@ -1,0 +1,9 @@
+<table>
+  <%- @articles.each do |article| %>
+    <tr>
+      <td>
+        <%= link_to(article.title, article.link, target: '_blank') %>
+      </td>
+    </tr>
+  <% end %>
+</table>
