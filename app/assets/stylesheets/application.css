@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+.feeds-wrapper table td {
+    padding: 10px;
+}
+
+.feeds-wrapper table tr.editor {
+    background-color: gray;
+}
