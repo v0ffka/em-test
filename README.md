@@ -1,24 +1,8 @@
-# README
+Feeds and its articles are modelled using 2 tables: feeds and feed_items
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Feed contents are pulled via the FeedJob (for simplicity, currently only triggered on create).
+The job is handled by rails default, no additional configuration.
 
-Things you may want to cover:
+All tests are RSpec.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Running the app with `rails s`, no additional setup is required
